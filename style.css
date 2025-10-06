@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+}
+
+
+#atual, #fila {
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #00ff9f;
+  border-radius: 10px;
+  width: 60%;
+  background: #333;
+}
+
+
+.personagem {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.personagem img {
+  width: 100px;
+  border-radius: 8px;
+}
+
+.botoes {
+  margin-top: 20px;
+}
+
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background: #00ff9f;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background: #00cc7a;
+}
+
